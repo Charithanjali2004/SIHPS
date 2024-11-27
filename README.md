@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:27/11/2024
+## Register Number:24001481
+## Name:K.Sai Charithanjali
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
@@ -10,16 +10,63 @@ Background: Alumni associations play a pivotal role in fostering lifelong connec
 Government of Gujarat
 
 ## Idea
+1. Mobile-Friendly Design:
+   Implementation: Use a responsive CSS framework like Bootstrap to ensure the website adjusts seamlessly on mobile devices
+
+ 2. Live Webinars Section:
+    Implementation: Embed live streaming options using platforms like YouTube Live or Zoom Webinars directly into the site.
+
+ 3. Geolocation Map:
+    Implementation: Integrate Google space Map API to show a world map with alumni pins,and allow searching by location.
+
+ 4. Survey and Poll Tools:
+    Implementation: Add an embeddable poll tool like Mentimeter or integrate custom surveys stored in a database with real-time result displays.
 
 
 ## Proposed Solution / Architecture Diagram
+![workshop](https://github.com/user-attachments/assets/f1992a53-770c-4834-8fff-df354a976887)
+
+Presentation Layer:
+   * Web Application: User interface for web browsers (e.g., desktop, laptop)
+   * Mobile Application: User interface for mobile devices (e.g., smartphones, tablets)
+ * Application Layer:
+   * Frontend: Handles user interactions, form processing, and data validation.
+   * Backend: Manages business logic, data access, and API endpoints.
+ * Data Layer:
+   * Database: Stores user information, donations, event details, job postings, and success stories.
+   * File Storage: Stores documents, images, and other media.
+* Key Components:
+ * User Authentication and Authorization: Ensures secure access to the platform.
+ * User Profile Management: Allows users to update their profiles and preferences.
+ * Donation Management: Handles donation processing and tracking.
+ * Networking and Community Features: Facilitates connections and interactions among alumni.
+ * Job Portal: Enables job posting and searching.
+ * Event Management: Manages event creation, registration, and notifications.
+ * Feedback and Survey Management: Collects and analyzes user feedback.
+ * Notification System: Sends timely notifications to users.
+ * Analytics and Reporting: Tracks user behavior and generates insights.
 
 
 ## Use Cases
-
+Alumni:
+1.Create a profile and update information
+2.Search and connect with other alumni
+3.Join alumni groups and forums
+4.Participate in online discussion and polls
+5.Donate to the institute
+6.Register for alumni events
+7.Post job opprtunities
+8.Seek mentorship or career advice
 
 ## Technology Stack
+ * Frontend: React, Angular, or Vue.js
+ * Backend: Node.js, Python (Django or Flask), or Ruby on Rails
+ * Database: PostgreSQL, MySQL, or MongoDB
+ * Cloud Platform: AWS, Azure, or Google Cloud Platform
+ * Mobile Development: React Native, Flutter, or native iOS and Android development
 
 
 ## Dependencies
-
+1.Third-party librsries and frameworks:For authentication,payment processing,Email,and SMS notifications.
+2.Domain name and hosting:For the website's domain name and web hosting.
+3.Cloud infrastructure providers:For hosting the application and database.
